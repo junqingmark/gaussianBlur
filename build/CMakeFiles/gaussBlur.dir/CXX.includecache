@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../../include/shader_m.h
+GL/glew.h
+-
+glm/glm.hpp
+-
+string
+-
+fstream
+-
+sstream
+-
+iostream
+-
+string.h
+-
+errno.h
+-
+
+/home/henry/src_test/learnOpenGL/GaussBlur/main.cpp
+GL/glew.h
+-
+GLFW/glfw3.h
+-
+FreeImage.h
+-
+shader_m.h
+/home/henry/src_test/learnOpenGL/GaussBlur/shader_m.h
+iostream
+-
+sys/time.h
+-
+
